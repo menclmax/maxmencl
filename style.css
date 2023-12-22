@@ -6,6 +6,7 @@
 
     text-decoration: none;
     color: black;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -31,8 +32,10 @@ body a{
     padding-left: 1rem;
     padding-right: 1rem;
 
-
     border-radius: 3px;
+
+    margin-top: 20px;
+    width:fit-content;
 
     transition: .2s all ease-in-out
 }
@@ -79,6 +82,11 @@ body a:hover{
 .content-section {
   position: relative;
   z-index: 3; 
+
+  display:flex;
+
+  flex-direction: column;
+  /* gap: 12px; */
 }
 
 body {
@@ -94,3 +102,56 @@ body {
   gap: 10px;
   height: 100%;
 }
+
+.footer{
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    margin-bottom: 10px;
+
+    border:1px solid red;
+}
+
+.footer input{
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 3px 0px 0px 3px;
+    background-color: transparent;
+
+    width: 100%;
+}
+
+.footer button{
+    text-transform: uppercase;
+    padding: 1rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    border: 1px solid black;
+    background: transparent;
+    border-radius: 0 3px 3px 0;
+    border-left: 0;
+
+    font-weight: 500;
+
+    transition: .1s all ease-in-out;
+}
+
+.footer button:hover{
+    background-color: black;
+    color:white;
+
+    transition: .1s all ease-in-out;
+}
+
+@media only screen and (max-width: 600px) {
+
+    body h1{
+        font-size: 5vh;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+    }
+    body p{
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+    }
+  }
