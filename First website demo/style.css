@@ -77,11 +77,13 @@ header button {
 
 header .logo{
     width: 200px;
+    align-items: center;
 
     /* border: 1px solid white; */
 }
 
 header .contact{
+    align-items: center;
     display: flex;
     justify-content: right;
     right: 0;
@@ -91,7 +93,7 @@ header .contact{
 }
 
 header.phone{
-/*     border: 1px solid red; */
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -100,22 +102,24 @@ header.phone{
     margin-top: 0;
     padding-top: 0;
 
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
 }
 
 header.phone img{
-/*     border: 1px solid yellow; */
+    /* border: 1px solid yellow; */
+    width: 150px;
+    margin-top: 5px;
 }
 
 header.phone i{
     font-size: 29px;
-/*     border:1px solid blue; */
+    /* border:1px solid blue; */
     margin-left: 0;
 }
 
 header.phone .logo{
-/*     border: 1px solid purple; */
+    /* border: 1px solid purple; */
     display: flex;
     justify-content: center;
 
@@ -135,3 +139,5 @@ header.phone .logo{
     }
 
 }
+
+/* nove */
