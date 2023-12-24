@@ -99,6 +99,9 @@ header.phone{
 
     margin-top: 0;
     padding-top: 0;
+
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 header.phone img{
