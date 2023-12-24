@@ -91,7 +91,7 @@ header .contact{
 }
 
 header.phone{
-    border: 1px solid red;
+/*     border: 1px solid red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -105,17 +105,17 @@ header.phone{
 }
 
 header.phone img{
-    border: 1px solid yellow;
+/*     border: 1px solid yellow; */
 }
 
 header.phone i{
     font-size: 29px;
-    border:1px solid blue;
+/*     border:1px solid blue; */
     margin-left: 0;
 }
 
 header.phone .logo{
-    border: 1px solid purple;
+/*     border: 1px solid purple; */
     display: flex;
     justify-content: center;
 
